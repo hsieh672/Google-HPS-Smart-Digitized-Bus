@@ -5,7 +5,7 @@ A system that allows people with limited mobility to communicate with drivers at
 ## Flow
 1. Create a cloud server  
 2. Run server.py with ssh connection in the cloud server  
-3. After confirming that the ip of clinet.py is the external ip of the cloud server, run client.py and fill in the client name (this step should also be written in the program to directly define the code of each Raspberry Pi, simulating the bus code)  
+3. After confirming that the ip of clinet.py is the external ip of the cloud server, run client.py and fill in the client name (this step should also be written in the program to directly define the code of each Raspberry pi, simulating the bus code)  
 4. Make sure the ip of main_client.py is the same as that of the cloud server, then run main_client.py (to simulate the sending of bus stop signs)  
 5. Enter the name and data of the object to be sent in main_client.py  
 ## Tools
@@ -15,11 +15,11 @@ There are 5 videos in total, the first three introduce the usage of sockets, and
 ## MQTT-The medium of messages transmission
 ![MQTT](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/MQTT.png)  
 ## System On the Bus
-We need to use a Raspberry pi, Raspberry Pi NFC reader, three LED on the bus  
+#### We need to use a Raspberry pi, Raspberry Pi NFC reader, three LED on the bus  
 ![RFID](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/RFID.png)  
 ![LED](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/LED.png)  
 ## System on the Bus Stop
-We need to use a Raspberry pi, Raspberry Pi NFC reader, Raspberry Pi 7 inch touch screen display on the bus stop  
+#### We need to use a Raspberry pi, Raspberry Pi NFC reader, Raspberry Pi 7 inch touch screen display on the bus stop  
 ![GUI](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/GUI.png)
 ## Materials
 1. Raspberry pi 3 * 2  
