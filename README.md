@@ -13,8 +13,14 @@ A system that allows people with limited mobility to communicate with drivers at
 2. [Sockets Tutorial with Python 3](https://pythonprogramming.net/sockets-tutorial-python-3/)  
 There are 5 videos in total, the first three introduce the usage of sockets, and the current program is basically modified with the fourth and fifth segments to change from a 1-to-many chat room to a 1-to-1 messaging.
 ## MQTT-The medium of messages transmission
-## ![MQTT](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/MQTT.png)  
-
+![MQTT](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/MQTT.png)  
+## System On the Bus
+We need to use a Raspberry pi, Raspberry Pi NFC reader, three LED on the bus  
+![RFID](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/RFID.png)  
+![LED](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/LED.png)  
+## System on the Bus Stop
+We need to use a Raspberry pi, Raspberry Pi NFC reader, Raspberry Pi 7 inch touch screen display on the bus stop  
+![GUI](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/GUI.png)
 ## Materials
 1. Raspberry pi 3 * 2  
 2. Raspberry Pi 7 inch touch screen display  
