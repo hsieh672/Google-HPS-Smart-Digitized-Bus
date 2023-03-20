@@ -12,3 +12,7 @@ A system that allows people with limited mobility to communicate with drivers at
 1. [How to build a cloud server](https://www.youtube.com/watch?v=5OL7fu2R4M8&ab_channel=JayMartMedia)  
 2. [Sockets Tutorial with Python 3](https://pythonprogramming.net/sockets-tutorial-python-3/)  
 There are 5 videos in total, the first three introduce the usage of sockets, and the current program is basically modified with the fourth and fifth segments to change from a 1-to-many chat room to a 1-to-1 messaging.
+## Materials
+1. Raspberry pi 3 *2
+2. Raspberry Pi  7 inch touch screen display
+![image](https://user-images.githubusercontent.com/75994180/226253475-83e71125-82e2-4c8d-9dc8-0d2072ed3214.png)
