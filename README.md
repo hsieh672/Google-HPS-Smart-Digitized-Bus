@@ -3,3 +3,11 @@ A system that allows people with limited mobility to communicate with drivers at
 ## Architecture
 ![cponcept](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/concept.png)  
 ## Flow
+1. Create a cloud server  
+2. Run server.py with ssh connection in the cloud server  
+3. After confirming that the ip of clinet.py is the external ip of the cloud server, run client.py and fill in the client name (this step should also be written in the program to directly define the code of each Raspberry Pi, simulating the bus code)  
+4. Make sure the ip of main_client.py is the same as that of the cloud server, then run main_client.py (to simulate the sending of bus stop signs)  
+5. Enter the name and data of the object to be sent in main_client.py  
+## Resference
+[How to build a cloud server](https://www.youtube.com/watch?v=5OL7fu2R4M8&ab_channel=JayMartMedia)
+[The communication between Python scoket](https://pythonprogramming.net/sockets-tutorial-python-3/)
