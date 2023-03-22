@@ -6,8 +6,11 @@ A system that allows people with limited mobility to communicate with drivers at
 ![cponcept](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/concept.png)  
 ## Flow
 1. Create a cloud server  
-2. Run server.py with ssh connection in the cloud server  
-3. After confirming that the ip of clinet.py is the external ip of the cloud server, run client.py and fill in the client name (this step should also be written in the program to directly define the code of each Raspberry pi, simulating the bus code)  
+   1. [How to build a cloud server](https://www.youtube.com/watch?v=5OL7fu2R4M8&ab_channel=JayMartMedia)  
+   2. [Sockets Tutorial with Python 3](https://pythonprogramming.net/sockets-tutorial-python-3/)  
+   There are 5 videos in total, the first three introduce the usage of sockets, and the current program is basically modified with the fourth and fifth segments to    change from a 1-to-many chat room to a 1-to-1 messaging.
+3. Run server.py with ssh connection in the cloud server  
+4. After confirming that the ip of clinet.py is the external ip of the cloud server, run client.py and fill in the client name (this step should also be written in the program to directly define the code of each Raspberry pi, simulating the bus code)  
 ```sh
     message = input(f'{my_username} > ')
     message = ''
@@ -21,10 +24,6 @@ A system that allows people with limited mobility to communicate with drivers at
     client_socket.send(target_header + target)
     message = input(f'{my_username} > ')
 ```
-## Tools
-1. [How to build a cloud server](https://www.youtube.com/watch?v=5OL7fu2R4M8&ab_channel=JayMartMedia)  
-2. [Sockets Tutorial with Python 3](https://pythonprogramming.net/sockets-tutorial-python-3/)  
-There are 5 videos in total, the first three introduce the usage of sockets, and the current program is basically modified with the fourth and fifth segments to change from a 1-to-many chat room to a 1-to-1 messaging.
 ## MQTT-The medium of messages transmission
 ![MQTT](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/MQTT.png)  
 ## System On the Bus
