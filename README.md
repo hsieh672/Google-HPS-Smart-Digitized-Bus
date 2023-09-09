@@ -8,7 +8,7 @@ Creating a system that enables people with limited mobility to communicate with 
 1. Create a cloud server  
    1. [How to build a cloud server](https://www.youtube.com/watch?v=5OL7fu2R4M8&ab_channel=JayMartMedia)  
    2. [Sockets Tutorial with Python 3](https://pythonprogramming.net/sockets-tutorial-python-3/)  
-   There are a total of 5 videos; the first three introduce the usage of sockets, and the current program is essentially modified in the fourth and fifth segments to change from a 1-to-many chat room to 1-to-1 messaging.
+   There are five videos; the first three introduce the usage of sockets, and the current program is essentially modified in the fourth and fifth segments to change from a 1-to-many chat room to 1-to-1 messaging.
 
 2. Execute server.py with an SSH connection on the cloud server.  
 3. After confirming that the IP in client.py is the external IP of the cloud server, run client.py and enter the client's name (this step should also be included in the program to define the code for each Raspberry Pi directly, simulating the bus code).  
