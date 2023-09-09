@@ -1,5 +1,5 @@
 # Smart-Digitized-Bus-Google-HPS
-Creating a system that enables people with limited mobility to communicate with drivers at bus stop signs is a valuable initiative to improve accessibility and inclusivity in public transportation.  
+Creating a system that enables people with limited mobility to communicate with drivers at bus stop signs.    
 ## Development Concept
 ![WHY](https://github.com/hsieh672/Smart-digitized-Bus-Google-HPS/blob/main/imag/WHY.png)
 ## Architecture
